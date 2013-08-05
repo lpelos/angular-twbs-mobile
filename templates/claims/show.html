@@ -1,0 +1,18 @@
+<div class="navbar navbar-fixed-top">
+  <a href="#/claims" class="btn btn-large pull-left">
+    <i class="glyphicon glyphicon-chevron-left"></i>
+  </a>
+  <a ng-href="#/claims/{{claim.id}}/edit" class="btn btn-large pull-right">
+    <i class="glyphicon glyphicon-edit"></i>
+  </a>
+  <span class="navbar-brand">Reclamação</span>
+</div>
+
+<section id="content">
+  <h2>{{claim.summary}}</h2>
+
+  <div ng-show="claim.description">
+    <h3>Descrição:</h3>
+    <p>{{claim.description}}</p>
+  </div>
+</section>

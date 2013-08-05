@@ -1,0 +1,12 @@
+<div class="navbar navbar-fixed-top">
+  <a href="#/claims" class="btn btn-large pull-left">
+    <i class="glyphicon glyphicon-cog"></i>
+  </a>
+  <span class="navbar-brand">Condominio</span>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="claim in claimsList">
+    <a ng-href="#/claims/{{claim.id}}">{{claim.summary}}</a>
+  </li>
+</ul>
