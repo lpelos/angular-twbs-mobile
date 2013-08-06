@@ -9,6 +9,7 @@
   <script type="text/javascript" src="js/plugins/angular.min.js"></script>
   <script type="text/javascript" src="js/plugins/angular-resource.min.js"></script>
   <script type="text/javascript" src="js/plugins/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/plugins/fastclick.js"></script>
 
   <script type="text/javascript" src="js/application.js"></script>
   <script type="text/javascript" src="js/router.js"></script>
@@ -20,9 +21,10 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-glyphicons.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/pageslider.css">
 </head>
 
-<body ng-view ng-animate="{enter: 'slide-in', leave: 'slide-out'}">
+<body ng-view ng-animate="transitionClass">
 </body>
 
 </html>

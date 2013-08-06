@@ -1,0 +1,104 @@
+/*
+ * All Animations are separeted
+ * Refactoring is possible
+ *
+/* Slide Left */
+.animate-slide-left-enter,
+.animate-slide-left-leave
+{
+    -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+
+.animate-slide-left-enter {
+    -webkit-transform: translate(100%,0);
+}
+.animate-slide-left-enter.animate-slide-left-enter-active {
+    -webkit-transform: translate(0,0);
+}
+
+.animate-slide-left-leave {
+    -webkit-transform: translate(0,0);
+}
+.animate-slide-left-leave.animate-slide-left-leave-active{
+    -webkit-transform: translate(-100%,0);
+}
+
+
+/* Slide Right */
+.animate-slide-right-enter,
+.animate-slide-right-leave
+{
+    -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+
+.animate-slide-right-enter {
+    -webkit-transform: translate(-100%,0);
+}
+.animate-slide-right-enter.animate-slide-right-enter-active {
+    -webkit-transform: translate(0,0);
+}
+
+.animate-slide-right-leave {
+    -webkit-transform: translate(0,0);
+}
+.animate-slide-right-leave.animate-slide-right-leave-active{
+    -webkit-transform: translate(100%,0);
+}
+
+/* Slide Top */
+.animate-slide-top-enter,
+.animate-slide-top-leave
+{
+    -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+
+.animate-slide-top-enter {
+    -webkit-transform: translate(0, 100%);
+}
+.animate-slide-top-enter.animate-slide-top-enter-active {
+    -webkit-transform: translate(0, 0);
+}
+
+.animate-slide-top-leave {
+    -webkit-transform: translate(0, 0);
+}
+.animate-slide-top-leave.animate-slide-top-leave-active{
+    -webkit-transform: translate(0, -100%);
+}
+
+/* Slide Bottom */
+.animate-slide-bottom-enter,
+.animate-slide-bottom-leave
+{
+    -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+}
+
+.animate-slide-bottom-enter {
+    -webkit-transform: translate(0, -100%);
+}
+.animate-slide-bottom-enter.animate-slide-bottom-enter-active {
+    -webkit-transform: translate(0, 0);
+}
+
+.animate-slide-bottom-leave {
+    -webkit-transform: translate(0, 0);
+}
+.animate-slide-bottom-leave.animate-slide-bottom-leave-active{
+    -webkit-transform: translate(0, 100%);
+}
