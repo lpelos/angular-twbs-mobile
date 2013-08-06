@@ -7,6 +7,7 @@
 
 <ul class="list-group">
   <li class="list-group-item" ng-repeat="claim in claimsList">
-    <a ng-href="#/claims/{{claim.id}}">{{claim.summary}}</a>
+    <!-- Actually ng-click here is not necessary because slide left is the default transition -->
+    <a ng-href="#/claims/{{claim.id}}" ng-click="setTransition('animate-slide-left')">{{claim.summary}}</a>
   </li>
 </ul>
